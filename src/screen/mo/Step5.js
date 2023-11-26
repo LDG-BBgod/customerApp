@@ -309,13 +309,7 @@ const Step5 = ({ setStep }) => {
           ))}
           <Spacer space={20} />
           <InfoText>보험사 선택 후 가입하세요.</InfoText>
-          <Spacer space={5} />
-          <StepButton
-            buttonFunc={handleOpenModal}
-            text={'가입링크 문자로 전달'}
-            completed={true}
-          />
-          <Spacer space={10} />
+          <Spacer space={8} />
           <StepButton
             buttonFunc={() => {
               handelGoLink()
@@ -344,13 +338,7 @@ const Step5 = ({ setStep }) => {
           ))}
           <Spacer space={20} />
           <InfoText>보험사 선택 후 전화로 가입하세요.</InfoText>
-          <Spacer space={5} />
-          <StepButton
-            buttonFunc={handleOpenModal}
-            text={'가입 전화번호 문자로 전달'}
-            completed={true}
-          />
-          <Spacer space={10} />
+          <Spacer space={8} />
           <StepButton
             buttonFunc={() => {
               handelGoLink()

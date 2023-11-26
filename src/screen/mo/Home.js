@@ -45,7 +45,7 @@ const Home = () => {
     setIsLoading(true)
     const res = await axios
       .post(
-        process.env.REACT_APP_PWCHECK,
+        process.env.REACT_APP_CSPWCHECK,
         {
           value,
         },
