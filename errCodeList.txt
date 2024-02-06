@@ -1,0 +1,7 @@
+[0001] 페이지 인잇 오류 - pageInit
+[0002] 개인정보 입력 오류 - phoneSubmit
+[0003] 인증번호 확인 오류 - authCheck
+[0004] 차량리스트 선택 오류 - selectCar
+[0005] 가입정보, 특약선택 오류 - getResult
+[0006] 차량리스트 선택 오류 - step4Back
+[0007] 인증번호 재전송 오류 - reSendAuth
